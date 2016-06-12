@@ -106,7 +106,7 @@ blockquote>:last-child {
 
 pre,
 code {
-    font-size: 15px;
+    font-size: 16px;
     background-color: #222;
 }
 
@@ -1758,7 +1758,7 @@ ul {
 }
 
 .highlighter-rouge .highlight {
-    background: #eef;
+    background: #222;
 }
 
 .highlight .c {
