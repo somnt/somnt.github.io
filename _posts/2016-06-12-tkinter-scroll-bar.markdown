@@ -49,7 +49,6 @@ def canvas_click(event):
   x = canvas.canvasx(event.x)
 	y = canvas.canvasy(event.y)
   #canvas.canvasx与canvas.canvasy为确保canvas能注意到scrollbar的滑动，使得点能点在正确的位置上
-
 	canvas.create_oval((x-5, y-5, x+5, y+5), fill = 'green')
 
 canvas.bind('<1>', canvas_click)
