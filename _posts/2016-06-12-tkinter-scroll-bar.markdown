@@ -10,7 +10,7 @@ tags:
 
 ### Scroll Bar with Text
 
-```python
+{% highlight python %}
 #/usr/bin/python2.7
 from Tkinter import *
 from Tkinter import ttk
@@ -27,11 +27,11 @@ text.config(yscrollcomannd = scrollbar.set)
 # 使scrollbar可上下滑动显示对应内容位置
 
 root.mainloop()
-```
+{% endhighlight %}
 
 ### Scroll Bar with Canvas --Drawing lines
 
-```python
+{% highlight python %}
 from Tkinter import *
 from Tkinter import ttk
 
@@ -55,4 +55,4 @@ def canvas_click(event):
 canvas.bind('<1>', canvas_click)
 
 root.mainloop()
-```
+{% endhighlight %}
